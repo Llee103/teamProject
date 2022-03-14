@@ -1,5 +1,6 @@
   .header {
     width: 100%;
+    float: left;
     max-height: 15%;
     top: 0%;
     position: absolute;
@@ -11,6 +12,7 @@
   }
   .search{
     width: 98%;
+    float: left;
     height: 6%;
     background-color: #ADA080;
     padding: 1%;
