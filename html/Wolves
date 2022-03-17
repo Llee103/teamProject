@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Animal Project">
+    <meta name="author" content="Victoria Davis">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+   <title>Animal Generator Home Page</title>
+    <!-- Site CSS Stylesheet -->
+     <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Main Header Section -->
+    <div class="header">
+      <h1> Animal Generator!!!</h1>
+    </div>
+    <!-- Main Site Navigation Bar -->
+    <div class="navbar">
+      <a href="index.html" class="left">HOME</a>
+    <a href = "index.html" class = right>
+      <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit">?</button>
+      <input type="text" placeholder="List of animals">
+      <button type="submit">?</button> </a>
+        </form>
+    </div>
+      </div>
+    </div>
+      <!-- Sidebar Section -->
+      <div class="side">
+        <h2>Wolves</h2>
+        <div class="polaroid">
+          <img src="https://cdn.vox-cdn.com/thumbor/ovAy1Z1_L4eoDmwuHwTLD194OqE=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22019271/1184377894.jpg" alt="" width="380" height="410">
+            <div class="caption">
+              This is a picture of a Wolf
+            </div>
+         
+        </div>
+      </div>
+      <!-- Main Middle Section -->
+      <div class="main">
+        <h1 id="Animal 1"> Wolves: </h1>
+        <p><ul>
+            <li> Wolves are the largest member of the Canidae family</li>
+            <li> From nose to tip of tail they measure about 5 - 6.5 ft with males and 4.5 - 6bft with females </li>
+            <li>.  Females weight around 60-80 pounds as the males weight 70-110 pounds </li>
+            <li>Wolves can live up to 13 years and will mate for life</li>
+            <li>. Pups are born dead and blind as they are covered in  holes or patches within their " caves" to protect them from dangers of being eaten</li>
+            <li> A pack of wolves can range from 2 - 30 wolves as they can run up to 36-38 MPH. There can be differnet types of wolves from grey, black, tan, and white wolves</li> 
+          <li> Wolves prey on elk, deer, moose, and other animals. When they hunt they hear up to 6 miles away within a forest</li>
+          
+<li>Their Jaw can crush nearly 15000 pounds  as they can also eat up to 20 pounds of mat in one meal
+</li>
+          <li>They can swim up to 8 miles and can howl for their pack 10km away
+</li>
+          <li>Wolves were the first animals to be placed on the U.S Endangered species Act list in 1973
+</li>
+          <li>Wolves were killed off in Montana in the late 1930's but were saved and put in the Yellowstone National Park in 1995-1996 and slowly increased over time
+</li>
+          <li>In 2013,  there were about 625 wolves in Western Montana , as over time within most of the parks that contained them, 100 wolves were hunted per year
+</li>
+        </ul>
+
+      </div>
+    <!-- End main row-->
+    </div>
+    <!-- Footer Section -->
+    <div class="footer">
+      <p>© 2021 Victoria Davis.  All Rights Reserved.</p>
+    </div>
+  </body>
+</html>
