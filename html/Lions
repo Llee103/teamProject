@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Animal Project">
+    <meta name="author" content="Victoria Davis">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+   <title>Animal Generator Home Page</title>
+    <!-- Site CSS Stylesheet -->
+     <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Main Header Section -->
+    <div class="header">
+      <h1> Animal Generator!!!</h1>
+    </div>
+    <!-- Main Site Navigation Bar -->
+    <div class="navbar">
+      <a href="index.html" class="left">HOME</a>
+    <a href = "index.html" class = right>
+      <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit">?</button>
+      <input type="text" placeholder="List of animals">
+      <button type="submit">?</button> </a>
+        </form>
+    </div>
+      </div>
+    </div>
+    <!-- Main Content Begins -->
+    <div class="row">
+      <!-- Sidebar Section -->
+      <div class="side">
+        <h2>Lions</h2>
+        <div class="polaroid">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg" alt="" width="380" height="410">
+            <div class="caption">
+              This is a picture of a lion
+            </div>
+         
+        </div>
+      </div>
+      <!-- Main Middle Section -->
+      <div class="main">
+        <h1 id="Animal 1"> LIONS: </h1>
+        <p><ul>
+            <li>Most lions live in Africa, only a small amount life withing the Gir Forest National Park in western India.</li>
+            <li> Male lions weigh about 190kg which is almost 3 stone and female lions weigh about 126kg (20 stone). </li>
+            <li>. They use their manes to attract females and to protect their necks and head from fight injuries</li>
+            <li>They are also big eaters that can eat up to about 40kg of meat in a single meal . This is also around a quarter of their body weight.</li>
+            <li>Their tongues have sharp pointed rasps called "papillae", which scraps off the meat from the bones.</li>
+            <li> Lions hunt during the storm and during the night due to their eyes being to adapt in the dark. They hunt during the storm due to the noise from the wind which makes it harder for their prey to see or hear them coming.</li> 
+          <li> Lionesses or female lions help to hunt by being the "centre". This means that as the lions chase the prey down they make it head towards the centres trapping them to their doom.</li>
+          
+<li> There about 23,000 lions left, and according to history, over 90% of lions disappeared of their historical range. 
+</li>
+        </ul>
+
+      </div>
+    <!-- End main row-->
+    </div>
+    <!-- Footer Section -->
+    <div class="footer">
+      <p>© 2021 Victoria Davis.  All Rights Reserved.</p>
+    </div>
+  </body>
+</html>
