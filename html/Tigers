@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Animal Project">
+    <meta name="author" content="Victoria Davis">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+   <title>Animal Generator Home Page</title>
+    <!-- Site CSS Stylesheet -->
+     <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Main Header Section -->
+    <div class="header">
+      <h1> Animal Generator!!!</h1>
+    </div>
+       <!-- Main Site Navigation Bar -->
+    <div class="navbar">
+      <a href="index.html" class="left">HOME</a>
+    <a href = "index.html" class = right>
+      <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit">?</button>
+      <input type="text" placeholder="List of animals">
+      <button type="submit">?</button> </a>
+        </form>
+    </div>
+      </div>
+    </div>
+      <!-- Sidebar Section -->
+      <div class="side">
+        <h2>Falcons</h2>
+        <div class="polaroid">
+          <img src="https://th-thumbnailer.cdn-si-edu.com/OJEjMGq8a3cQgaWziSQzI58h9gY=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/d7/5d/d75da9a8-8bbb-4657-8ba1-f4423e964477/istock-172384962.jpg" alt="" width="380" height="410">
+            <div class="caption">
+              This is a picture of a Falcons
+            </div>
+         
+        </div>
+      </div>
+      <!-- Main Middle Section -->
+      <div class="main">
+        <h1 id="Animal 1"> Falcons </h1>
+        <p><ul>
+            <li> Falcons are fast birds that have been hunting and living for many years.  They are hunters of the avian world</li>
+            <li> They are hunters of the avian world. They are able to spot, chase and kill prey quietly and efficiently </li>
+            <li> Peregrine Falcons were known for their speed of 242 miles per hour within the air </li>
+            <li>Their adapted cardiovascular and respiratory system allow falcons to beat their wings up to four times per second without feeling tired</li>
+            <li> Falcon's eyes are eight times better than human eyes</li>
+            <li> This allows the falcons to spot their prey nearly 2 miles away and catch it. Their eyes seem translucent that protect them from the sun, but they can still see through it</li> 
+          <li> Falcon's eat sever different kinds of species for food. They just mainly spot, catch and kill when they are hunting</li>
+          
+<li> Falcons use their talons on their feet to kill or catch their prey then they use their beaks as weapons as they also use their sharp tooth at  the end of their necks to sever necks of their prey
+</li>
+          <li>Humans used falcons to hunt their food for over 3,500 years up to the medieval times
+</li>
+          <li>They are still used for hunting today with over 60,000 people that have memberships
+</li>
+          <li>they nearly went extinct in North America due to a widespread use of Pesticide DDT
+</li>
+          <li>When falcons have a mate they are devoted to that partner for life. They only come together to mate and live together as hunters to take care of their babies
+</li>
+        </ul>
+
+      </div>
+    <!-- End main row-->
+    </div>
+    <!-- Footer Section -->
+    <div class="footer">
+      <p>© 2021 Victoria Davis.  All Rights Reserved.</p>
+    </div>
+  </body>
+</html>
