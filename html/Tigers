@@ -16,7 +16,7 @@
     <div class="header">
       <h1> Animal Generator!!!</h1>
     </div>
-       <!-- Main Site Navigation Bar -->
+    <!-- Main Site Navigation Bar -->
     <div class="navbar">
       <a href="index.html" class="left">HOME</a>
     <a href = "index.html" class = right>
@@ -31,36 +31,28 @@
     </div>
       <!-- Sidebar Section -->
       <div class="side">
-        <h2>Falcons</h2>
+        <h2>Tigers</h2>
         <div class="polaroid">
-          <img src="https://th-thumbnailer.cdn-si-edu.com/OJEjMGq8a3cQgaWziSQzI58h9gY=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/d7/5d/d75da9a8-8bbb-4657-8ba1-f4423e964477/istock-172384962.jpg" alt="" width="380" height="410">
+          <img src="https://files.worldwildlife.org/wwfcmsprod/images/Tiger_resting_Bandhavgarh_National_Park_India/hero_small/6aofsvaglm_Medium_WW226365.jpg" alt="" width="380" height="410">
             <div class="caption">
-              This is a picture of a Falcons
+              This is a picture of a Tiger
             </div>
          
         </div>
       </div>
       <!-- Main Middle Section -->
       <div class="main">
-        <h1 id="Animal 1"> Falcons </h1>
+        <h1 id="Animal 1"> Tigers: </h1>
         <p><ul>
-            <li> Falcons are fast birds that have been hunting and living for many years.  They are hunters of the avian world</li>
-            <li> They are hunters of the avian world. They are able to spot, chase and kill prey quietly and efficiently </li>
-            <li> Peregrine Falcons were known for their speed of 242 miles per hour within the air </li>
-            <li>Their adapted cardiovascular and respiratory system allow falcons to beat their wings up to four times per second without feeling tired</li>
-            <li> Falcon's eyes are eight times better than human eyes</li>
-            <li> This allows the falcons to spot their prey nearly 2 miles away and catch it. Their eyes seem translucent that protect them from the sun, but they can still see through it</li> 
-          <li> Falcon's eat sever different kinds of species for food. They just mainly spot, catch and kill when they are hunting</li>
+            <li>Tigers are animals that been around for over 2 millions years</li>
+            <li> Over the last 150 years  the tigers range shrunk from 95% which estimates about 3,900  tiger left in the world </li>
+            <li>.  They mostly stay within India. But in the U.S they are mainly held captive. </li>
+            <li>Tigers are known for being the silent hunter or aka "the silent killers" due to them having soft toe pads that help them walk silently through their  habitat</li>
+            <li>. During the night they travel around 6-12 miles. When they travel to hunt food, their main prey is deer, and wild boar. For tigers, one out of ten hunts are successful.</li>
+            <li> They would pull their meal into their covering spot, which consist of putting raking leaves, dirt, grass and rocks over their carcasses so that no one else would eat their meal</li> 
+          <li> Tiger's growl is known as the "vocal repertoire of tigers".  They have different vocalization used to communicate different things. </li>
           
-<li> Falcons use their talons on their feet to kill or catch their prey then they use their beaks as weapons as they also use their sharp tooth at  the end of their necks to sever necks of their prey
-</li>
-          <li>Humans used falcons to hunt their food for over 3,500 years up to the medieval times
-</li>
-          <li>They are still used for hunting today with over 60,000 people that have memberships
-</li>
-          <li>they nearly went extinct in North America due to a widespread use of Pesticide DDT
-</li>
-          <li>When falcons have a mate they are devoted to that partner for life. They only come together to mate and live together as hunters to take care of their babies
+<li>Random Facts: They supposedly smell like buttered popcorn
 </li>
         </ul>
 
