@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <!-- Google Fonts -->
+  
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title> Random Animal Generator </title>
     
-    <!-- Site CSS Stylesheet -->
   <link rel="stylesheet" href="style.css">
   </head>
   <body>
     
-    <!-- Main Header Section -->
     <div class="header">
       <h1 style = "color: white;"> Animal Generator</h1>
     </div>
@@ -33,14 +31,12 @@
     <!-- Main Content Begins -->
     <div class="row">
       
-      <!-- Sidebar Section -->
       <div class="column">
         <div class="picture">
           <img src="https://www.aces.edu/wp-content/uploads/2018/11/iStock-182344013.jpg" alt="" width="575" height="430">
         </div>
       </div>
       
-      <!-- Main Middle Section -->
       <div class="column">
         <h2 id="Animal 3" style="background-color: #e9ddee"> Facts about Sheep: </h2>
         <p><ul>
@@ -63,7 +59,6 @@
         </ul>
 
       </div>
-    <!-- End main row-->
       
     </div>
     <footer>
