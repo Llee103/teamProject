@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title> Random Animal Generator </title>
+    
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <div class="header">
+      <h1 style = "color: white;"> Animal Generator</h1>
+    </div>
+    
+    <!-- Main Site Navigation Bar -->
+    <div class="navbar"> 
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit">?</button>
+      <input type="text" placeholder="List of animals">
+      <button type="submit">?</button>
+  </form>
+    </div>
+
+    <div class= "chosen">
+      <h2> <u>Dolphins! </u></h2>
+    </div>
+    
+    <!-- Main Content Begins -->
+    <div class="row">
+      
+      <div class="column">
+        <div class="picture">
+          <img src="https://d.newsweek.com/en/full/1837953/dolphin.jpg?w=1600&h=1200&q=88&f=7815dd2a1bf746d6bd01b230b93818ac" alt="" width="500" height="430">
+        </div>
+      </div>
+      
+      <div class="column">
+        <h2 id="Animal 1" style="background-color: #e9ddee"> Facts about Dolphins: </h2>
+        <p><ul>
+            <li> Scientific name: Odontoceti</li>
+          <br>
+            <li> Dolphins are small-toothed cetaceans easily recognizable by their curved mouths, which give them a permanent “smile.”
+<br></li>
+          <br>
+          <li> The orca (killer whale) is the largest dolphin. Hector's dolphin and Franciscana are two of the smallest.
+<br></li>
+          <br>
+          <li> Lifespan varies from around 20 years in the smaller dolphin species to 80 years or more for larger dolphins such as orcas.
+<br></li>
+          <br>
+          <li> Called “unihemispheric slow-wave sleep,” dolphins sleep with only half of their brain. <br></li>
+          <br>
+          <li> They have hair that can be found at the top of the rostrum, and dolphins cannot grow their hair anymore after there childhood. <br></li>
+          <br>
+        </ul>
+
+      </div>
+      
+    </div>
+    <footer>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-youtube"></a>
+      <br>
+      <p style = "font-size: 13px"> About &nbsp;&nbsp;&nbsp;&nbsp;Terms &nbsp;&nbsp;&nbsp;&nbsp;Privacy &nbsp;&nbsp;&nbsp;&nbsp;Status</p>
+      <p> © 2022 Lauren Lee.  All Rights Reserved. </p>
+      
+    </footer>
+  </body>
+</html>
