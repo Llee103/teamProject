@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+/* Header font style */
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Lato";
+}
+/* Style the body */
+body {
+  font-family: "Lato";
+  font-size: 20px;
+  color: #262626;
+  margin: 0;
+}
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: mediumpurple;
+  color: Lavender;
+}
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 50px;
+}
+/* Increase the font size of the sub-heading paragraph */
+.header p {
+  font-size: 20px;
+}
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #331966;
+  padding: 1%;
+}
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: lavender;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+/* Right-aligned link */
+.navbar a.right {
+    float: right;
+}
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #d5d2da;
+    color: darkslateblue;
+}
+/* Change color on active */
+.navbar a:active {
+    background-color: #d1c2f0;
+    color: tomato;
+}
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f0ebfa;
+  padding: 20px;
+  font-size: 18px;
+}
+/* Polaroid image and caption container */
+div.polaroid {
+  width: 300px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 5px;
+}
+div.container {
+  padding: 5px 10px;
+}
+.caption {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+.main h2.sections {
+  text-align: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  color: #1f0f3d;
+}
+.main dt.jobs {
+  padding: 10px;
+  color: #1f0f3d;
+  font-size: 22px;
+  font-weight: bold;
+}
+.main h3 {
+  color: #1f0f3d;
+}
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #e9ddee;
+}
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width:800px) {
+    .row {   
+        flex-direction: column;
+    }
+}
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
