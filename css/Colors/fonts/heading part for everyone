@@ -31,6 +31,7 @@ body {
 .navbar {
   overflow: hidden;
   background-color: #331966;
+  padding: 1%;
 }
 /* Style the navigation bar links */
 .navbar a {
@@ -108,13 +109,8 @@ div.container {
 .main h3 {
   color: #1f0f3d;
 }
-.main #welcome-head, #jobs-head {
-  border-bottom-style: solid;
-  border-color: #dcdcdc;
-  border-width: 1px;
-  padding-bottom: 15px;
-}
-<button style =
+
+
 /* Footer */
 .footer {
   padding: 20px;
