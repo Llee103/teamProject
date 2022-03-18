@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title> Random Animal Generator </title>
+    
+    <!-- Site CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <!-- Main Header Section -->
+    <div class="header">
+      <h1 style = "color: white;"> Animal Generator</h1>
+    </div>
+    
+    <!-- Main Site Navigation Bar -->
+    <div class="navbar"> 
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit">?</button>
+      <input type="text" placeholder="List of animals">
+      <button type="submit">?</button>
+  </form>
+    </div>
+
+    <div class= "chosen">
+      <h2> <u>Sheep! </u></h2>
+    </div>
+    
+    <!-- Main Content Begins -->
+    <div class="row">
+      
+      <!-- Sidebar Section -->
+      <div class="column">
+        <div class="picture">
+          <img src="https://www.aces.edu/wp-content/uploads/2018/11/iStock-182344013.jpg" alt="" width="575" height="430">
+        </div>
+      </div>
+      
+      <!-- Main Middle Section -->
+      <div class="column">
+        <h2 id="Animal 3" style="background-color: #e9ddee"> Facts about Sheep: </h2>
+        <p><ul>
+            <li> Scientific name: Ovis aries
+</li>
+          <br>
+            <li> Sheep, a species of domesticated ruminant mammal, raised for its meat, milk, and wool. </li>
+          <br>
+          <li> In ancient Egypt, sheep were believed to be sacred. Some were mummified when they died.</li>
+          <br>
+          <li> “Gummers” is the name for sheep that lost all of their teeth due to old age.
+</li>
+          <br>
+          <li> Dolly the sheep was the first animal to be cloned from an adult cell in July 1996 by scientists at the Roslin Institute. The team of scientists was led by Sir Ian Wilmut.
+ </li>
+          <br>
+          <li> The world’s most expensive sheep is Double Diamond, a Texel lamb, which was sold for around $490,000 in an auction in Scotland.
+ </li>
+          <br>
+        </ul>
+
+      </div>
+    <!-- End main row-->
+      
+    </div>
+    <footer>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-youtube"></a>
+      <br>
+      <p style = "font-size: 13px"> About &nbsp;&nbsp;&nbsp;&nbsp;Terms &nbsp;&nbsp;&nbsp;&nbsp;Privacy &nbsp;&nbsp;&nbsp;&nbsp;Status</p>
+      <p> © 2022 Lauren Lee.  All Rights Reserved. </p>
+      
+    </footer>
+  </body>
+</html>
