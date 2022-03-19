@@ -116,6 +116,32 @@ div.container {
   padding-bottom: 15px;
 }
 
+.main button {
+  background-color: #d473f7; /* Green */
+  border: none;
+  color: lavender;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;}
+
+  
+  .main button {border-radius: 12px;}
+
+/* hover for button */
+.button {
+  transition-duration: 0.4s;
+}
+.main button:hover {
+  background-color: #dbb3f5; 
+  color: lavenderblush;
+  transition-duration: 0.4s;
+}
+.main button {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
 <button style =
 /* Search box */
 
