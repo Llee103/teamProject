@@ -11,8 +11,10 @@
       var urlVariables = window.location.search;
       var urlParams = new URLSearchParams(urlVariables);
     
-      let input = urlParams.get("search").toLowerCase();
-
+      var getInput = urlParams.get("search");
+      let input = getInput.toLowerCase();
+      
+     
       if (input != null){
         switch (input) {
           case "Dolphins": window.location.href = "Dolphins.html";
