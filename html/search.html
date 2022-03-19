@@ -12,11 +12,14 @@
       var urlParams = new URLSearchParams(urlVariables);
     
       var input = urlParams.get("search");
-      
+      let animals = input;
+      let animals = input.toLowerCase();
      
       if (input != null){
         switch (input) {
           case "Dolphins": window.location.href = "Dolphins.html";
+          case "dolphins": window.location.href = "Dolphins.html";
+          case "DOLPHINS": window.location.href = "Dolphins.html";
             break;
           case "Falcons": window.location.href = "Falcons.html";
             break;
