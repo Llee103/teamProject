@@ -9,38 +9,37 @@
 
     <script type="text/javascript">
       var urlVariables = window.location.search;
-
       var urlParams = new URLSearchParams(urlVariables);
+      var urlInput = urlParams.get("search");
 
-      //rename all input to 'search'
-      var input = urlParams.get("search");
+      let input = urlInput.toLowerCase();
 
       if (input != null){
         switch (input) {
           case "Dolphins": window.location.href = "Dolphins.html";
             break;
           case "Falcons": window.location.href = "Falcons.html";
-        break;
-      case "Kangaroos": window.location.href = "Kangaroos.html";
-        break;
-      case "Koalas": window.location.href = "Koalas.html";
-        break;
-      case "Lions": window.location.href = "Lions.html";
-         break;
-      case "Sheep": window.location.href = "Sheep.html";
-         break;
-      case "Tigers": window.location.href = "Tigers.html";
-         break;
-      case "Wolves": window.location.href = "Wolves.html";
-         break;
-      case "Butterflies": window.location.href = "butterflies.html";
-         break;
-      case "Elephants": window.location.href = "elephants.html";
-         break;
-      case "Horses": window.location.href = "horses.html";
-         break;
-      case "Whales": window.location.href = "whales.html";
-         break;
+            break;
+           case "Kangaroos": window.location.href = "Kangaroos.html";
+            break;
+          case "Koalas": window.location.href = "Koalas.html";
+            break;
+          case "Lions": window.location.href = "Lions.html";
+            break;
+          case "Sheep": window.location.href = "Sheep.html";
+            break;
+          case "Tigers": window.location.href = "Tigers.html";
+            break;
+          case "Wolves": window.location.href = "Wolves.html";
+            break;
+          case "Butterflies": window.location.href = "butterflies.html";
+            break;
+          case "Elephants": window.location.href = "elephants.html";
+            break;
+          case "Horses": window.location.href = "horses.html";
+            break;
+          case "Whales": window.location.href = "whales.html";
+            break;
           default: window.location.href = "error.html";
         }
       }
