@@ -42,7 +42,8 @@ body {
   text-decoration: none;
 }
 /* Right-aligned link */
-.navbar a.right {
+.navbar .right {
+    margin-top: 1%;
     float: right;
 }
 /* Change color on hover */
