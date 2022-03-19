@@ -116,16 +116,22 @@ div.container {
   padding-bottom: 15px;
 }
 
+.main #welcome-head, {
+  border-bottom-style: solid;
+  border-color: #dbbce1;
+  border-width: 1px;
+  padding-bottom: 15px;
+}
+
 .main button {
-  background-color: #d473f7; /* Green */
+  background-color: #d473f7; 
   border: none;
   color: lavender;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;}
-
+  font-size: 16px; }
   
   .main button {border-radius: 12px;}
 
@@ -141,10 +147,6 @@ div.container {
 .main button {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-
-<button style =
-/* Search box */
-
 
 /* Footer */
 .footer {
