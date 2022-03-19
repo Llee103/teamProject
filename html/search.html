@@ -10,10 +10,8 @@
     <script type="text/javascript">
       var urlVariables = window.location.search;
       var urlParams = new URLSearchParams(urlVariables);
-      var urlinput = urlParams.get("search");
-     
-      //Makes sure it doesn't matter if user types in ALL CAPS
-      let input = urlinput.toLowerCase();
+    
+      let input = urlParams.get("search").toLowerCase();
 
       if (input != null){
         switch (input) {
